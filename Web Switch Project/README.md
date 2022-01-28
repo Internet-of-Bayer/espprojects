@@ -44,6 +44,7 @@ Now let's attach policy that will permite the communication between our Lambda a
     <li>IAM will open so: Permission>Attach Policies</li>
     <li>Search for: AWSIoTDataAccess>select>Attach Policy</li>
 </ul>
+
 ### For the second Lambda
 <ul>
     <li>In console, search for Lambda>Create Lambda</li>
