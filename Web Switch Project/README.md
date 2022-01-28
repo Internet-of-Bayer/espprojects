@@ -102,7 +102,7 @@ Open <b><i>API Gateway>API_{ThingName}>Stage>Click in arrow to show options>Clic
   <li>In AWS Console Type: S3 > Search by your thingname> upload> Select iot_lamp.html>upload</li>
 </ul>
 
-<i>Go to API Gateway>API_{ThingName}>Resource>shadow-state>GET>Integration Request>LambdaFunction>Edit>Select your lambda check>OK</i> 
+<i>Go to API Gateway>API_{ThingName}>Resource>shadow-state>GET>Integration Request>LambdaFunction>Edit(click in pencil)>Select your lambda check>OK</i> 
 ## Configuring ESP and AWS IoT Core
 ### Editing AWS IoT Shadow 
 In this session, we will configure the AWS Shadow State (To check and update the shadow of our object) at AWS IoT Core to permite the connection and communication between AWS and our device
