@@ -21,9 +21,53 @@ Now, we are starting our project! We will create two Lambda Functions. The first
 So take a note of the both Lambda Functions Names, it will be important later.
 
 ### For the first Lambda
-Follow Step inside Shadow Status Check folder
+<ul>
+    <li>In console, click in "Create Function" button.</li>
+    <li>Select Author from scratch</li>
+    <li>Type your first Lambda Function Name to check the Switch State (save this name)</li>
+    <li>In Runtime, select Python 3.8</li>
+    <li>if Architecture option appear for you, select "x86_64"</li>
+    <li>Click in "Create Function"</li>
+</ul>
+
+Well done! Now we need to upload the .zip code downloaded
+<ul>
+    <li>
+    Inside our first Lambda, click in Upload from>.zip File>upload</li>
+    Select the .zip file, inside the Shadow Status Check folder</li>
+    Click in Save</li>
+</ul>
+
+Now let's attach policy that will permite the communication between our Lambda and IoT Core (Service that we will configurate later)
+<ul>
+    <li> Still inside Lambda Function select: Configuration>Permission and click in Role Name link</li>
+    <li>IAM will open so: Permission>Attach Policies</li>
+    <li>Search for: AWSIoTDataAccess>select>Attach Policy</li>
+</ul>
 ### For the second Lambda
-Follow Step inside Shadow Status Update folder
+<ul>
+    <li>In console, search for Lambda>Create Lambda</li>
+    <li>Select Author from scratch</li>
+    <li>Type your second Lambda Function Name to update the Switch State (save this name)</li>
+    <li>In Runtime, select Python 3.8</li>
+    <li>if Architecture option appear for you, select "x86_64"</li>
+    <li>Click in "Create Function"</li>
+</ul>
+
+Well done! Now we need to upload the .zip code downloaded
+<ul>
+    <li>Inside our second Lambda, click in Upload from>.zip File>upload</li>
+    <li>Select the .zip file, inside the Shadow Status Update folder</li>
+    <li>Click in Save</li>
+</ul>
+
+Now let's attach policy that will permite the communication between our Lambda and IoT Core (Service that we will configurate later)
+<ul>
+    <li>Still inside Lambda Function select: Configuration>Permission and click in Role Name link</li>
+    <li>IAM will open so: Permission>Attach Policies</li>
+    <li>Search for: AWSIoTDataAccess>select>Attach Policy</li>
+</ul>
+
 ### Launching our stack
 
 Click in button Below<br>
