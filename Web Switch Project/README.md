@@ -155,9 +155,11 @@ Open the folder "iot_switch_esp_code">iot_switch_esp_code.ino<br>
     
 ## Writing the Code to our Device
 Plug your ESP32 in Desktop/Notebook
-In the left upside, click in right arrow. Wait the written and when the console show "Connecting....___" Press the right button at ESP named: boot, until the code start flash. Wait 1 minute and well done!
-
-
+In the left upside, click in right arrow. Wait the written and when the console show "Connecting....___" Press the right button at ESP named: boot, until the code start flash. Wait 1 minute and well done!<br>
+You also can see if connected if you open: IoT Core>Manage>Things>Select your thing>Activity>Connect your ESP in Desktop/PC<br>
+Now you will se your ESP connecting to AWS :)
+ 
+    
 ## Let's test
 Open <b><i>API Gateway>API_{ThingName}>Stage>Click in link
 Now, type your ThingName>Check>Press to Turn Off/On
